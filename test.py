@@ -8,7 +8,7 @@ sumrange_ctypes.argtypes = ctypes.c_ulonglong,
 
 
 def sum_range_cpython(arg)
-  sumrange_ctypes(10**8)
+  sumrange_ctypes(arg)
 
 def sum_range_python(arg):
   return sum(xrange(arg))
